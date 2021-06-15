@@ -1,0 +1,210 @@
+// Carbon Typographyh
+// https://www.carbondesignsystem.com/guidelines/typography/productive
+
+// Header
+.bx--header .bx--header__name {
+  @include carbon--type-style('expressive-heading-04');
+  font-size: 1rem;
+}
+
+.bx--header__nav {
+  display: block;
+  position: absolute;
+  right: 95px;
+}
+
+.landing__banner {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 6rem 1.4rem 0 1.4rem;
+
+  @media screen and (min-width: $medium) {
+    height: 50vh;
+    margin: 3rem auto;
+    height: 35rem;
+    max-width: 90rem;
+  }
+
+  .landing__openEEW {
+    flex: 0 0 100%;
+
+    @media screen and (min-width: $medium) {
+      flex: 0 0 50%;
+      display: flex;
+      align-items: center;
+      padding: 8rem 0 6rem 8rem;
+    }
+
+    .landing__openEEWWrapper {
+      position: relative;
+
+      h1 {
+        @include carbon--type-style('expressive-heading-06');
+        font-size: 3.3rem;
+        position: absolute;
+        top: 5px;
+        left: 105px;
+
+        @media screen and (min-width: $medium) {
+          width: 7rem;
+          top: -1px;
+          left: 90px;
+        }
+      }
+
+      img {
+        width: 5rem;
+        margin-bottom: 1rem;
+
+        @media screen and (min-width: $medium) {
+          width: 4rem;
+        }
+      }
+
+      @media screen and (min-width: $medium) {
+        display: flex;
+      }
+    }
+  }
+
+  .landing__mission {
+    margin-top: 1rem;
+
+    @media screen and (min-width: $medium) {
+      flex: 0 0 50%;
+      display: flex;
+      align-items: center;
+      padding: 1.5rem;
+    }
+
+    h2 {
+      @include carbon--type-style('productive-heading-07');
+      border-left: 2px solid #55a4c9;
+      padding-left: 2rem;
+      font-size: 2.3rem;
+    }
+  }
+}
+
+.landing__diagram {
+  display: flex;
+  justify-content: center;
+  background-color: #bdbdbd;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  padding: 1rem;
+  margin-top: 5rem;
+
+  .landing__diagramContainer {
+    max-width: 55rem;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.landing__whoWeAre {
+  h3 {
+    @include carbon--type-style('expressive-heading-05');
+    font-size: 2.5rem;
+    margin: 5rem 0 3.5rem 0;
+  }
+
+  p {
+    @include carbon--type-style('productive-heading-06');
+    line-height: 1.4;
+    font-size: 1.9rem;
+  }
+
+  p:first-of-type {
+    margin-bottom: 2rem;
+  }
+
+  svg {
+    margin: 2rem 0 8rem 0;
+  }
+
+  .landing__buttonSet {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+    .bx--btn--primary {
+      background-color: #24769c;
+      max-width: 14rem;
+    }
+
+    @media screen and (max-width: 778px) {
+      flex-direction: column;
+
+      .bx--btn,
+      .bx--btn--primary {
+        max-width: none;
+        margin: 1rem 0;
+      }
+    }
+
+    .bx--btn--primary:hover {
+      background-color: #5f6163;
+    }
+  }
+}
+
+// Sensor information section.
+.info-section {
+  margin-bottom: 10vw;
+
+  .info-text {
+    padding-top: 40px;
+    border-top: 1px solid white;
+    div[class^='bx--col'] {
+      margin-top: 10px;
+    }
+  }
+
+  .sensor-image {
+    margin-top: 5vw;
+    width: 100%;
+  }
+
+  button {
+    width: 100%;
+    background-color: inherit;
+    border: 2px solid white;
+  }
+}
+
+// Dashboard information section
+.dashboard-image {
+  margin-top: 5vw;
+  width: 100%;
+}
+
+footer {
+  background-color: #1d1d1d;
+  border-top: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  * {
+    text-align: center;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  h4 {
+    margin: 2rem 1rem;
+  }
+
+  p {
+    margin: 0rem 1rem;
+    line-height: 1.1;
+  }
+
+  small {
+    margin: 1rem 1rem 3rem 1rem;
+  }
+}
