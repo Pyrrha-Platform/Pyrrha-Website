@@ -1,9 +1,9 @@
 import React, { useContext } from 'react';
 import { Grid, Row, Column, Button } from 'carbon-components-react';
 import board from '../content/assets/pyrrha-arch.jpg';
-import nodeGray from '../content/assets/openeew-node-gray.jpg';
+import nodeGray from '../content/assets/Prometeo-device.jpg';
 import dashboard from '../content/assets/dash.jpg';
-import hazardmap from '../content/assets/hazardmap.jpg';
+import hazardmap from '../content/assets/Prometeo-ack.jpg';
 import AppContext from '../context/app';
 
 const SensorInfo = () => {
@@ -17,7 +17,7 @@ const SensorInfo = () => {
           <Column lg={4}>
             <h2>{t('sensorTitle')}</h2>
           </Column>
-          <Column lg={6}>
+          <Column lg={8}>
             <h3>{t('sensorDescription1')}</h3>
           </Column>
           <Column lg={{ span: 3, offset: 1 }}>
@@ -33,16 +33,6 @@ const SensorInfo = () => {
             >
               {t('sensorButtonText')}
             </Button> */}
-          </Column>
-        </Row>
-        <Row className="info-text">
-          {/* TODO: Get text from json. */}
-          <Column lg={4}>
-          </Column>
-          <Column lg={6}>
-            <h3>{t('sensorDescription2')}</h3>
-          </Column>
-          <Column lg={{ span: 3, offset: 1 }}>
           </Column>
         </Row>
         <Row className="info-media">
@@ -80,8 +70,8 @@ const DashboardInfo = () => {
           <Column lg={8}>
             <h3>{t('dashboardDescription')}</h3>
           </Column>
-          <Column lg={{ span: 3, offset: 1 }}>
-            <Button
+          {/* <Column lg={{ span: 3, offset: 1 }}> */}
+            {/* <Button
               onClick={() => {
                 window.open(
                   'https://github.com/openeew/openeew/wiki/Getting-Involved',
@@ -92,8 +82,8 @@ const DashboardInfo = () => {
               kind="secondary"
             >
               {t('dashboardButtonText')}
-            </Button>
-          </Column>
+            </Button> */}
+          {/* </Column> */}
         </Row>
         <Row className="info-media">
           <Column lg={{ span: 12, offset: 4 }}>
@@ -119,10 +109,16 @@ const NetworkInfo = () => {
         <Row className="info-text">
           {/* TODO: Get text from json. */}
           <Column lg={4}>
-            <h4>{t('networkTitle')}</h4>
+            <h2>{t('networkTitle')}</h2>
           </Column>
           <Column lg={8}>
-            <h3>{t('networkDescription')}</h3>
+            <h4>{t('networkDescription1')}</h4>
+            <h4>{t('networkDescription2')}</h4>
+            <h4>{t('networkDescription3')}</h4>
+            <h4>{t('networkDescription4')}</h4>
+            <h4>{t('networkDescription5')}</h4>
+            <h4>{t('networkDescription6')}</h4>
+
           </Column>
           <Column lg={{ span: 3, offset: 1 }}>
             <Button

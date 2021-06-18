@@ -10,7 +10,7 @@ const WhoWeAre = () => {
     <section>
       <Grid className="landing__whoWeAre">
         <Row>
-          <Column lg={9}>
+          <Column lg={8}>
             <h3>{t('informationTitle')}</h3>
             <p>{t('informationFirstPara')}</p>
             <p>{t('informationSecPara')}</p>
@@ -31,7 +31,7 @@ const WhoWeAre = () => {
                 kind="tertiary"
                 onClick={() => {
                   window.open(
-                    'https://openeew.slack.com/join/shared_invite/zt-cibhc0za-XKReMPobi2DsrPusORJZVQ#/shared-invite/email',
+                    'https://callforcode.slack.com/archives/C01C905UEAE',
                     '_blank',
                     'noopener'
                   );
@@ -43,7 +43,7 @@ const WhoWeAre = () => {
                 kind="tertiary"
                 onClick={() => {
                   window.open(
-                    'https://github.com/openeew',
+                    'https://github.com/Pyrrha-Platform',
                     '_blank',
                     'noopener'
                   );
