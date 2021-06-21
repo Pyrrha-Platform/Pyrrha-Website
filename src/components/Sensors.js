@@ -52,7 +52,9 @@ const SensorInfo = () => {
           </Column>
         </Row>
       </Grid>
+      
     </section>
+    
   );
 };
 
@@ -70,7 +72,7 @@ const DashboardInfo = () => {
           <Column lg={8}>
             <h3>{t('dashboardDescription')}</h3>
           </Column>
-          {/* <Column lg={{ span: 3, offset: 1 }}> */}
+          <Column lg={{ span: 3, offset: 1 }}>
             {/* <Button
               onClick={() => {
                 window.open(
@@ -83,7 +85,7 @@ const DashboardInfo = () => {
             >
               {t('dashboardButtonText')}
             </Button> */}
-          {/* </Column> */}
+          </Column>
         </Row>
         <Row className="info-media">
           <Column lg={{ span: 12, offset: 4 }}>

@@ -22,7 +22,7 @@ const _Header = () => {
       </HeaderName>
 
       <HeaderNavigation aria-label="Launch Dashboard">
-        <HeaderMenuItem target="_blank" href="https://dashboard.openeew.com">
+        <HeaderMenuItem target="_blank" href="http://prometeo-kubernetes-8877e2c915ebdcc9b5067e5cb2150b3c-0000.eu-gb.containers.appdomain.cloud/">
           Launch Dashboard
         </HeaderMenuItem>
       </HeaderNavigation>
