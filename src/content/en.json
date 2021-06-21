@@ -8,10 +8,25 @@
   "whatopeneewButton2": "Join Us On Slack",
   "whatopeneewButton3": "Browse code",
   "sensorTitle": "Pyrrha Explained",
+
   "sensorDescription1": "The Architecture: This diagram is related to the current Pyrrha prototype (V1) that is being tested.  ",
+  "Arch-Description1":"1. The firefighter logs into the mobile phone. The credentials are authenticated with IBM App ID. The next steps assume that authentication was successful. Then the firefighter scan for Prometeo devices with the mobile app and connect to the device thought bluetooth low energy.",
+  "Arch-Description2":"2. The device sensor captures gas levels. The device sends to the mobile application sensor values at regular intervals.",
+  "Arch-Description3":"3. The mobile application sends data to the IBM IoT platform.",
+  "Arch-Description4":"4. The MQTT Client service listens for incoming messages on the IBM IoT platform.",
+  "Arch-Description5":"5. The MQTT Client stores the data in the MariaDB relational database.",
+  "Arch-Description6":"6. The MQTT Client sends the data to the WebSocket server.",
+  "Arch-Description7":"7. The RulesDecision service wakes up every minute to calculate the 10 mins, 30 mins, 60 mins, 4 hours, and 8 hours time-weighted averages for each gas.",
+  "Arch-Description8":"8. The dashboard queries the database to show the historical data.",
+  "Arch-Description9":"9. The dashboard connects to the WebSocket Server to show live data and alerts the user if the levels go above certain pre-determined thresholds.",
+  "Arch-Description10":"10. The central control can view the dashboard using the web browser.",
+  "Arch-Description11":"11. The mobile application regularly requests firefighter status from the RulesDecision service and shows the result using the LED on the hardware device.",
+
   "sensorDescription2": "Pyrrha Device: The IoT device recollects key data: temperature, humidity, and the amount of smoke (CO Concentration) ",
   "sensorDescription3": "Monitoring console: Dashboard with real time alerts about the environmental data from each firefighter",
   "sensorDescription4": "Pyrrha (Prometeo V1 Testing: February 10-11, 2020, the 1st test on the field with GRAF Department from Bombers Generlitat in Barcelona. ",
+
+
   "sensorButtonText": "REMOVE",
   "dashboardTitle": "Team Contact",
   "dashboardDescription": "Meet the original Prometeo founders who were able to bring this project to life. ",

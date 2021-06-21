@@ -19,6 +19,7 @@ const SensorInfo = () => {
           </Column>
           <Column lg={8}>
             <h3>{t('sensorDescription1')}</h3>
+            
           </Column>
           <Column lg={{ span: 3, offset: 1 }}>
             {/* <Button
@@ -42,13 +43,24 @@ const SensorInfo = () => {
               src={board}
               alt="A 3D printed sensor"
             ></img>
-          </Column>
-          <Column lg={6}>
-            <img
-              className="sensor-image"
-              src={nodeGray}
-              alt="The OpenEEW Sensor"
-            ></img>
+            <div>
+            <h4>{t('Arch-Description1')}</h4>
+            <h4>{t('Arch-Description2')}</h4>
+            <h4>{t('Arch-Description3')}</h4>
+            <h4>{t('Arch-Description4')}</h4>
+            <h4>{t('Arch-Description5')}</h4>
+            <h4>{t('Arch-Description6')}</h4>
+            <h4>{t('Arch-Description7')}</h4>
+            <h4>{t('Arch-Description8')}</h4>
+            <h4>{t('Arch-Description9')}</h4>
+            <h4>{t('Arch-Description10')}</h4>
+            <h4>{t('Arch-Description11')}</h4>
+            </div>
+
+            <h3>{t('sensorDescription2')}</h3>
+            <h3>{t('sensorDescription3')}</h3>
+            <h3>{t('sensorDescription4')}</h3>
+
           </Column>
         </Row>
       </Grid>
