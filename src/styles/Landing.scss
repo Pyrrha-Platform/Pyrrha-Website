@@ -16,7 +16,7 @@
 .landing__banner {
   display: flex;
   flex-wrap: wrap;
-  margin: 6rem 1.4rem 0 1.4rem;
+  margin: 1rem 1.4rem 0 1.4rem;
 
   @media screen and (min-width: $medium) {
     height: 50vh;
@@ -40,7 +40,7 @@
 
       h1 {
         @include carbon--type-style('expressive-heading-06');
-        font-size: 3.3rem;
+        font-size: 5rem;
         position: absolute;
         top: 5px;
         left: 105px;
@@ -57,7 +57,7 @@
         margin-bottom: 1rem;
 
         @media screen and (min-width: $medium) {
-          width: 4rem;
+          width: 6rem;
         }
       }
 
@@ -79,8 +79,8 @@
 
     h2 {
       @include carbon--type-style('productive-heading-07');
-      border-left: 2px solid #55a4c9;
-      padding-left: 2rem;
+      border-left: 4px solid #B14A34;
+      padding-left: 3rem;
       font-size: 2.3rem;
     }
   }
@@ -89,9 +89,9 @@
 .landing__diagram {
   display: flex;
   justify-content: center;
-  background-color: #bdbdbd;
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
+  background-color: #B14A34;
+  //border-top: 1px solid white;
+  //border-bottom: 1px solid white;
   padding: 1rem;
   margin-top: 5rem;
 
@@ -130,7 +130,7 @@
     margin-bottom: 3rem;
 
     .bx--btn--primary {
-      background-color: #24769c;
+      background-color: #B14A34;
       max-width: 14rem;
     }
 
@@ -181,7 +181,7 @@
 }
 
 footer {
-  background-color: #1d1d1d;
+  background-color: #B14A34;
   border-top: 1px solid white;
   display: flex;
   flex-direction: column;
