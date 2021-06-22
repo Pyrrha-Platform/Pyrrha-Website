@@ -3,7 +3,7 @@
 
 // Header
 .bx--header .bx--header__name {
-  @include carbon--type-style("expressive-heading-04");
+  @include carbon--type-style('expressive-heading-04');
   font-size: 1rem;
 }
 
@@ -39,7 +39,7 @@
       position: relative;
 
       h1 {
-        @include carbon--type-style("expressive-heading-06");
+        @include carbon--type-style('expressive-heading-06');
         font-size: 5rem;
         position: absolute;
         top: 5px;
@@ -78,8 +78,8 @@
     }
 
     h2 {
-      @include carbon--type-style("productive-heading-07");
-      border-left: 4px solid #b14a34;
+      @include carbon--type-style('productive-heading-07');
+      border-left: 4px solid #B14A34;
       padding-left: 3rem;
       font-size: 2.3rem;
     }
@@ -89,7 +89,7 @@
 .landing__diagram {
   display: flex;
   justify-content: center;
-  background-color: #b14a34;
+  background-color: #B14A34;
   //border-top: 1px solid white;
   //border-bottom: 1px solid white;
   padding: 1rem;
@@ -106,13 +106,13 @@
 
 .landing__whoWeAre {
   h3 {
-    @include carbon--type-style("expressive-heading-05");
+    @include carbon--type-style('expressive-heading-05');
     font-size: 2.5rem;
     margin: 5rem 0 3.5rem 0;
   }
 
   p {
-    @include carbon--type-style("productive-heading-06");
+    @include carbon--type-style('productive-heading-06');
     line-height: 1.4;
     font-size: 1.9rem;
   }
@@ -130,7 +130,7 @@
     margin-bottom: 3rem;
 
     .bx--btn--primary {
-      background-color: #b14a34;
+      background-color: #B14A34;
       max-width: 14rem;
     }
 
@@ -157,14 +157,13 @@
   .info-text {
     padding-top: 40px;
     border-top: 1px solid white;
-    div[class^="bx--col"] {
+    div[class^='bx--col'] {
       margin-top: 10px;
     }
   }
 
   .sensor-image {
     margin-top: 5vw;
-    margin-bottom: 5vw;
     width: 100%;
   }
 
@@ -182,7 +181,7 @@
 }
 
 footer {
-  background-color: #b14a34;
+  background-color: #B14A34;
   border-top: 1px solid white;
   display: flex;
   flex-direction: column;
