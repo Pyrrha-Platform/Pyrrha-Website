@@ -12,7 +12,7 @@ const Landing = () => {
       <Header />
       <main>
         <Banner />
-        <Diagram />
+        {/* <Diagram /> */}
         <WhoWeAre />
         <SensorInfo />
         <DashboardInfo />

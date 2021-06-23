@@ -17,12 +17,14 @@
   display: flex;
   flex-wrap: wrap;
   margin: 1rem 1.4rem 0 1.4rem;
+  background-image: url(https://media.discordapp.net/attachments/425380933315592192/857005522309087303/Prometeo_header.jpg?width=1968&height=1312);
+
 
   @media screen and (min-width: $medium) {
     height: 50vh;
-    margin: 3rem auto;
+    margin: 7rem auto;
     height: 35rem;
-    max-width: 90rem;
+    // max-width: 90rem;
   }
 
   .landing__openEEW {
@@ -37,6 +39,7 @@
 
     .landing__openEEWWrapper {
       position: relative;
+      background-image: url(https://media.discordapp.net/attachments/425380933315592192/857005522309087303/Prometeo_header.jpg?width=1968&height=1312);
 
       h1 {
         @include carbon--type-style("expressive-heading-06");
@@ -96,7 +99,7 @@
   margin-top: 5rem;
 
   .landing__diagramContainer {
-    max-width: 55rem;
+    max-width: 100rem;
 
     img {
       width: 100%;
@@ -107,19 +110,38 @@
 .landing__whoWeAre {
   h3 {
     @include carbon--type-style("expressive-heading-05");
-    font-size: 2.5rem;
-    margin: 5rem 0 3.5rem 0;
+    font-size: 2.1rem;
+    margin: .1rem 0 2.5rem 0;
   }
 
   p {
     @include carbon--type-style("productive-heading-06");
     line-height: 1.4;
     font-size: 1.9rem;
+    margin-bottom: 1rem;
+    float:left;
+    width: 100%;
+    display: inline-flex;
+    
   }
 
   p:first-of-type {
     margin-bottom: 2rem;
+    float: right;
   }
+
+  p1 {
+    @include carbon--type-style("productive-heading-06");
+    line-height: 1.4;
+    font-size: 1.9rem;
+    float: right;
+    // display: inline-block;
+    // width: %;
+    //margin-left: 100rem;
+    //display: inline-block;
+
+  }
+
 
   svg {
     margin: 2rem 0 8rem 0;
@@ -127,7 +149,8 @@
 
   .landing__buttonSet {
     margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
+    float:left;
 
     .bx--btn--primary {
       background-color: #b14a34;
@@ -156,7 +179,7 @@
 
   .info-text {
     padding-top: 40px;
-    border-top: 1px solid white;
+    border-top: 1px solid #B14A34;
     div[class^="bx--col"] {
       margin-top: 10px;
     }
@@ -171,7 +194,7 @@
   button {
     width: 100%;
     background-color: inherit;
-    border: 2px solid white;
+    border: 2px solid #B14A34;
   }
 }
 
@@ -183,7 +206,7 @@
 
 footer {
   background-color: #b14a34;
-  border-top: 1px solid white;
+  border-top: 1px solid #B14A34;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -198,6 +221,7 @@ footer {
 
   h4 {
     margin: 2rem 1rem;
+    font-size: 1.5rem;
   }
 
   p {

@@ -2,8 +2,8 @@
   "title": "Pyrrha",
   "bannerMission": "IoT-based device that measures toxins to protect firefighters when battling wildfires",
   "informationTitle": "What is Pyrrha?",
-  "informationFirstPara": "Previously named Prometeo, Pyrrha is an internet-of-things(IoT) solution that measures toxins that firefighters are exposed to when battling wildfires. ",
-  "informationSecPara": "There are no individualized strategies to protect firefighters health and safety. Pyrrha is a cognitive platform that allows us to monitor firefighters in real time through color signals and alerts.",
+  "informationFirstPara": "Previously named Prometeo, Pyrrha is an internet-of-things(IoT) solution that measures toxins that firefighters are exposed to when battling wildfires. There are no individualized strategies to protect firefighters health and safety. Pyrrha is a cognitive platform that allows us to monitor firefighters in real time through signals and alerts. ",
+  "informationSecPara": "There are no individualized strategies to protect firefighters health and safety. Pyrrha is a cognitive platform that allows us to monitor firefighters in real time through signals and alerts.",
   "whatopeneewButtonPrimary": "Get Involved",
   "whatopeneewButton2": "Join Us On Slack",
   "whatopeneewButton3": "Browse code",
@@ -42,8 +42,8 @@
   "networkButtonText": "",
   "footer": "Pyrrha is a ",
   "footerLink": "Call for Code® with The Linux Foundation project",
-  "footer2":  " founded by ",
-  "footerLink2": " Grillo",
+  "footer2":  ".",
+  "footerLink2": "",
   "copyright": "Copyright © 2020-2021 OpenEEW Project a Series of LF Projects, LLC.",
   "copyrightInfo": "For trademark usage guidelines, privacy and cookie policies, and other applicable policies, as well as terms and conditions governing this web site, please see www.lfprojects.org."
 }
