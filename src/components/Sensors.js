@@ -3,6 +3,10 @@ import { Grid, Row, Column, Button } from 'carbon-components-react';
 import board from '../content/assets/pyrrha-arch.jpg';
 import nodeGray from '../content/assets/Prometeo-device.jpg';
 import dashboard from '../content/assets/dash.jpg';
+import salome from '../content/assets/Salome-Valero.jpeg'
+import marco from '../content/assets/Marco-Emilio-Rodriguez-Serrano.jpeg'
+import joan from '../content/assets/Joan-Herrera.jpeg'
+import Artur from '../content/assets/Artur-Alvarez.jpeg'
 import hazardmap from '../content/assets/Prometeo-ack.jpg';
 import AppContext from '../context/app';
 
@@ -79,10 +83,11 @@ const DashboardInfo = () => {
         <Row className="info-text">
           {/* TODO: Get text from json. */}
           <Column lg={4}>
-            <h4>{t('dashboardTitle')}</h4>
+            <h2>{t('dashboardTitle')}</h2>
           </Column>
-          <Column lg={8}>
+          <Column lg={12}>
             <h3>{t('dashboardDescription')}</h3>
+
           </Column>
           <Column lg={{ span: 3, offset: 1 }}>
             {/* <Button
@@ -100,12 +105,42 @@ const DashboardInfo = () => {
           </Column>
         </Row>
         <Row className="info-media">
-          <Column lg={{ span: 12, offset: 4 }}>
-            <img
-              className="dashboard-image"
-              src={dashboard}
-              alt="OpenEEW Dashboard"
-            ></img>
+          <Column lg={{ span: 12, offset: 3 }}>
+            <div class="gallery">
+              <img src={salome}></img>
+                <div class="desc">
+                  <p>Salomé Valero </p>
+                  <p>Chief Executive Officer </p>
+                  <p>Co-Founder</p>
+              </div>
+           </div>
+
+            <div class="gallery">
+              <img src={marco}></img>
+                <div class="desc">
+                  <p>Marco Emilio Rodríguez Serrano</p> 
+                  <p> Chief Technology Officer </p>
+                  <p>Co-Founder</p>
+               </div>
+           </div>
+
+           <div class="gallery">
+              <img src={joan}></img>
+                <div class="desc">
+                  <p>Joan Herrera </p>
+                  <p>Chief Operating Officer</p>
+                  <p>Co-Founder</p>
+              </div>
+           </div>
+
+            <div class="gallery">
+              <img src={Artur}></img>
+                <div class="desc">
+                  <p>Artur Álvarez</p>
+                  <p>Media Producer</p>
+                  <p>Co-Founder</p>
+              </div>
+           </div>
           </Column>
         </Row>
       </Grid>
@@ -125,7 +160,7 @@ const NetworkInfo = () => {
           <Column lg={4}>
             <h2>{t('networkTitle')}</h2>
           </Column>
-          <Column lg={8}>
+          <Column lg={9}>
             <h4>{t('networkDescription1')}</h4>
             <h4>{t('networkDescription2')}</h4>
             <h4>{t('networkDescription3')}</h4>
@@ -135,7 +170,7 @@ const NetworkInfo = () => {
 
           </Column>
           <Column lg={{ span: 3, offset: 1 }}>
-            <Button
+            {/* <Button
               onClick={() => {
                 window.open(
                   'https://github.com/openeew/openeew/wiki/Build-a-Network',
@@ -146,16 +181,16 @@ const NetworkInfo = () => {
               kind="secondary"
             >
               {t('networkButtonText')}
-            </Button>
+            </Button> */}
           </Column>
         </Row>
         <Row className="info-media">
           <Column lg={{ span: 11, offset: 4 }}>
-            <img
+            {/* <img
               className="dashboard-image"
               src={hazardmap}
               alt="Earthquake hazard map"
-            ></img>
+            ></img> */}
           </Column>
         </Row>
       </Grid>

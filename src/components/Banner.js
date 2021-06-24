@@ -11,7 +11,7 @@ const Banner = () => {
     <section className="landing__banner">
       <div className="landing__openEEW">
         <div className="landing__openEEWWrapper">
-          <img src={Pyrrha_logo} alt="OpenEEW Logo" />
+          {/* <img src={Pyrrha_logo} alt="OpenEEW Logo" /> */}
           <h1>Pyrrha</h1>
         </div>
         
