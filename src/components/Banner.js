@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
-import Pyrrha_logo from '../content/assets/Pyrrha_torch.png';
-import landscape from '../content/assets/Prometeo_header.jpg'
+// import Pyrrha_logo from '../content/assets/Pyrrha_torch.png';
+// import landscape from '../content/assets/Prometeo_header.jpg'
 
 import AppContext from '../context/app';
 

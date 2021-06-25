@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { Grid, Row, Column, Button, ButtonSet } from 'carbon-components-react';
-import ArrowDown from '@carbon/icons-react/lib/arrow--down/32';
+// import ArrowDown from '@carbon/icons-react/lib/arrow--down/32';
 import AppContext from '../context/app';
 
 const WhoWeAre = () => {

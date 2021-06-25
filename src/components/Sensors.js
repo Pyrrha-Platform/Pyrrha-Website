@@ -1,13 +1,13 @@
 import React, { useContext } from 'react';
-import { Grid, Row, Column, Button } from 'carbon-components-react';
+import { Grid, Row, Column} from 'carbon-components-react';
 import board from '../content/assets/pyrrha-arch.jpg';
-import nodeGray from '../content/assets/Prometeo-device.jpg';
-import dashboard from '../content/assets/dash.jpg';
+// import nodeGray from '../content/assets/Prometeo-device.jpg';
+// import dashboard from '../content/assets/dash.jpg';
 import salome from '../content/assets/Salome-Valero.jpeg'
 import marco from '../content/assets/Marco-Emilio-Rodriguez-Serrano.jpeg'
 import joan from '../content/assets/Joan-Herrera.jpeg'
 import Artur from '../content/assets/Artur-Alvarez.jpeg'
-import hazardmap from '../content/assets/Prometeo-ack.jpg';
+// import hazardmap from '../content/assets/Prometeo-ack.jpg';
 import AppContext from '../context/app';
 
 const SensorInfo = () => {
@@ -26,18 +26,7 @@ const SensorInfo = () => {
             
           </Column>
           <Column lg={{ span: 3, offset: 1 }}>
-            {/* <Button
-              onClick={() => {
-                window.open(
-                  'https://github.com/openeew/openeew/wiki/OpenEEW-Sensor',
-                  '_blank',
-                  'noopener'
-                );
-              }}
-              kind="secondary"
-            >
-              {t('sensorButtonText')}
-            </Button> */}
+           
           </Column>
         </Row>
         <Row className="info-media">
@@ -107,7 +96,10 @@ const DashboardInfo = () => {
         <Row className="info-media">
           <Column lg={{ span: 12, offset: 3 }}>
             <div class="gallery">
-              <img src={salome}></img>
+              <img 
+               src ={salome}
+               alt ="Salome valero"
+              ></img>
                 <div class="desc">
                   <p>Salomé Valero </p>
                   <p>Chief Executive Officer </p>
@@ -116,7 +108,10 @@ const DashboardInfo = () => {
            </div>
 
             <div class="gallery">
-              <img src={marco}></img>
+              <img 
+                src ={marco}
+                alt ="Marco Emilio Rodriquez Serrano"
+              ></img>
                 <div class="desc">
                   <p>Marco Emilio Rodríguez Serrano</p> 
                   <p> Chief Technology Officer </p>
@@ -125,7 +120,10 @@ const DashboardInfo = () => {
            </div>
 
            <div class="gallery">
-              <img src={joan}></img>
+              <img 
+                src ={joan}
+                alt = "Joan Herrera"
+              ></img>
                 <div class="desc">
                   <p>Joan Herrera </p>
                   <p>Chief Operating Officer</p>
@@ -134,7 +132,10 @@ const DashboardInfo = () => {
            </div>
 
             <div class="gallery">
-              <img src={Artur}></img>
+              <img 
+                src ={Artur}
+                alt = "Artur Alvarez" 
+              ></img>
                 <div class="desc">
                   <p>Artur Álvarez</p>
                   <p>Media Producer</p>
