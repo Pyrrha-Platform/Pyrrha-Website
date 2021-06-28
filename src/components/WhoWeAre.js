@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { Grid, Row, Column, Button, ButtonSet } from 'carbon-components-react';
-// import ArrowDown from '@carbon/icons-react/lib/arrow--down/32';
+import ArrowDown from '@carbon/icons-react/lib/arrow--down/32';
 import AppContext from '../context/app';
 
 const WhoWeAre = () => {
@@ -10,11 +10,10 @@ const WhoWeAre = () => {
     <section>
       <Grid className="landing__whoWeAre">
         <Row>
-          <Column lg={16}>
+          <Column lg={8}>
             <h3>{t('informationTitle')}</h3>
             <p>{t('informationFirstPara')}</p>
-            {/* <p>{t('informationSecPara')}</p> */}
-            
+            <p>{t('informationSecPara')}</p>
             <ButtonSet className="landing__buttonSet">
               <Button
                 kind="primary"
@@ -53,9 +52,8 @@ const WhoWeAre = () => {
                 {t('whatopeneewButton3')}
               </Button>
             </ButtonSet>
-            {/* <ArrowDown /> */}
+            <ArrowDown />
           </Column>
-
         </Row>
       </Grid>
     </section>
