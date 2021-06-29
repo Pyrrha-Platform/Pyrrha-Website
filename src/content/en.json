@@ -50,13 +50,13 @@
   "networkDescription3": "- Josep Ràfols for his contribution to Prometeo open source community. ",
   "networkDescription4": "- Vicenç Ferres for his contribution related to smoke concentration parameters",
   "networkDescription5": "- Project Owl for their help in product testing and code",
-  "networkDescription6": "- Based on Billie Thompson's README template",
+  "networkDescription6": "",
 
   "networkButtonText": "",
   "footer": "Pyrrha is a ",
   "footerLink": "Call for Code® with The Linux Foundation project",
-  "footer2":  " founded by ",
-  "footerLink2": " Grillo",
-  "copyright": "Copyright © 2020-2021 OpenEEW Project a Series of LF Projects, LLC.",
+  "footer2":  ".",
+  "footerLink2": "",
+  "copyright": "Copyright © 2020-2021 Pyrrha Project a Series of LF Projects, LLC.",
   "copyrightInfo": "For trademark usage guidelines, privacy and cookie policies, and other applicable policies, as well as terms and conditions governing this web site, please see www.lfprojects.org."
 }

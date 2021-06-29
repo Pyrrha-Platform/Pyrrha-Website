@@ -19,7 +19,7 @@ const WhoWeAre = () => {
                 kind="primary"
                 onClick={() => {
                   window.open(
-                    'https://github.com/openeew/openeew/wiki/Getting-Involved',
+                    'https://github.com/Pyrrha-Platform',
                     '_blank',
                     'noopener'
                   );
@@ -31,7 +31,7 @@ const WhoWeAre = () => {
                 kind="tertiary"
                 onClick={() => {
                   window.open(
-                    'https://callforcode.slack.com/archives/C01C905UEAE',
+                    'http://callforcode.org/slack',
                     '_blank',
                     'noopener'
                   );
