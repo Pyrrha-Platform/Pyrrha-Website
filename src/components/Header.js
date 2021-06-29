@@ -39,7 +39,7 @@ const _Header = () => {
         <HeaderGlobalAction
           aria-label="Slack"
           target="_blank"
-          href="https://callforcode.slack.com/archives/C01C905UEAE"
+          href="http://callforcode.org/slack"
           tooltipAlignment="end"
         >
           <LogoSlack20 />
