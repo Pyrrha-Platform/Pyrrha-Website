@@ -1,14 +1,10 @@
 import React, { useContext } from "react";
 import { Grid, Row, Column, Button } from "carbon-components-react";
 import board from "../content/assets/pyrrha-arch.jpg";
-import nodeGray from "../content/assets/Prometeo-device.jpg";
 import dashboard from "../content/assets/dash.jpg";
 import hazardmap from "../content/assets/Prometeo-ack.jpg";
 import AppContext from "../context/app";
 import dash from "../content/assets/Pyrrha-dashboardSS.png";
-import gh from "../content/assets/green-helmet.jpeg";
-import yh from "../content/assets/yellow-helmet.jpeg";
-import rh from "../content/assets/red-helmet.jpeg";
 import device from "../content/assets/pyrrha-device.jpeg";
 import test from "../content/assets/pyrrha-testing.jpeg";
 
