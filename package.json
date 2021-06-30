@@ -2,7 +2,7 @@
   "name": "pyrrha-platform.org",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://pyrrha-platform.org/",
+  "homepage": "https://pyrrha-platform.github.io/Pyrrha-Website/",
   "dependencies": {
     "@carbon/grid": "^10.27.0",
     "@carbon/icons-react": "^10.32.0",

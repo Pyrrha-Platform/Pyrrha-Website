@@ -16,13 +16,18 @@
 .landing__banner {
   display: flex;
   flex-wrap: wrap;
-  margin: 1rem 1.4rem 0 1.4rem;
+  margin: 1rem 1rem 0 1rem;
+  background-image: url(https://media.discordapp.net/attachments/425380933315592192/857348263102513152/Prometeo-ack.jpg?width=1968&height=1312);
+  background-size: cover ;
+  background-attachment: fixed;
+  // background-color: white
+  color: white;
 
   @media screen and (min-width: $medium) {
     height: 50vh;
-    margin: 3rem auto;
+    margin: 7rem auto;
     height: 35rem;
-    max-width: 90rem;
+    // max-width: 90rem;
   }
 
   .landing__openEEW {
@@ -32,18 +37,21 @@
       flex: 0 0 50%;
       display: flex;
       align-items: center;
-      padding: 8rem 0 6rem 8rem;
+      padding: 6rem 0 19.5rem 8rem;
     }
 
     .landing__openEEWWrapper {
       position: relative;
+      background-image: url(https://media.discordapp.net/attachments/425380933315592192/857348263102513152/Prometeo-ack.jpg?width=1968&height=1312);
 
       h1 {
         @include carbon--type-style("expressive-heading-06");
-        font-size: 5rem;
+        font-size: 10rem;
         position: absolute;
         top: 5px;
         left: 105px;
+        
+    
 
         @media screen and (min-width: $medium) {
           width: 7rem;
@@ -74,14 +82,18 @@
       flex: 0 0 50%;
       display: flex;
       align-items: center;
-      padding: 1.5rem;
+      padding: 0rem;
     }
 
     h2 {
-      @include carbon--type-style("productive-heading-07");
-      border-left: 4px solid #b14a34;
-      padding-left: 3rem;
-      font-size: 2.3rem;
+      @include carbon--type-style("expressive-heading-05");
+      border-left: 4px solid;
+      padding-left: 2rem;
+      font-size: 2.5rem;
+
+
+
+      ;
     }
   }
 }
@@ -96,7 +108,7 @@
   margin-top: 5rem;
 
   .landing__diagramContainer {
-    max-width: 55rem;
+    max-width: 100rem;
 
     img {
       width: 100%;
@@ -107,19 +119,38 @@
 .landing__whoWeAre {
   h3 {
     @include carbon--type-style("expressive-heading-05");
-    font-size: 2.5rem;
-    margin: 5rem 0 3.5rem 0;
+    font-size: 2.1rem;
+    margin: .1rem 0 2.5rem 0;
   }
 
   p {
     @include carbon--type-style("productive-heading-06");
     line-height: 1.4;
     font-size: 1.9rem;
+    margin-bottom: 1rem;
+    float:left;
+    width: 100%;
+    display: inline-flex;
+    
   }
 
   p:first-of-type {
     margin-bottom: 2rem;
+    float: right;
   }
+
+  p1 {
+    @include carbon--type-style("productive-heading-06");
+    line-height: 1.4;
+    font-size: 1.9rem;
+    float: right;
+    // display: inline-block;
+    // width: %;
+    //margin-left: 100rem;
+    //display: inline-block;
+
+  }
+
 
   svg {
     margin: 2rem 0 8rem 0;
@@ -127,7 +158,8 @@
 
   .landing__buttonSet {
     margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
+    float:left;
 
     .bx--btn--primary {
       background-color: #b14a34;
@@ -156,49 +188,22 @@
 
   .info-text {
     padding-top: 40px;
-    border-top: 1px solid white;
+    border-top: 1px solid #B14A34;
     div[class^="bx--col"] {
       margin-top: 10px;
     }
   }
 
   .sensor-image {
-    margin-top: 2vw;
-    margin-bottom: 1.5vw;
-    width: 150%;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    width: 100%;
   }
-
-  .device {
-    margin-top: 1vw;
-    margin-bottom: 1.5vw;
-    width: 250%;
-  }
-
-  .dash {
-    margin-top: 1vw;
-    margin-bottom: 4vw;
-    width: 400%;
-  }
-
-  .testing {
-    margin-top: 1vw;
-    margin-bottom: 1.5vw;
-    width: 260%;
-  }
-
-  .archdescrip {
-    margin-bottom: 4vw;
-  }
-
-  /*.tests {
-    margin-bottom: -11vw;
-  }
-*/
 
   button {
     width: 100%;
     background-color: inherit;
-    border: 2px solid white;
+    border: 2px solid #B14A34;
   }
 }
 
@@ -208,9 +213,33 @@
   width: 100%;
 }
 
+//alignment for the team images/text
+.gallery {
+  margin: 20px 50px -100px 50px;
+  float: left;
+  width: 15%;
+  padding: 0 43px 0 0;
+
+  
+}
+
+// .gallery-image {
+//   width: 100%;
+//   height: auto;
+//   text-align: center;
+// }
+
+//description for the team contact images
+.desc {
+  padding: 10px;
+  text-align: center;
+  @include carbon--type-style("body-short-02");
+  width: 200%;
+}
+
 footer {
   background-color: #b14a34;
-  border-top: 1px solid white;
+  border-top: 1px solid #B14A34;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -225,7 +254,13 @@ footer {
 
   h4 {
     margin: 2rem 1rem;
+    font-size: 1.5rem;
   }
+
+  // h4 {
+    // margin: 2rem 1rem;
+    // font-size: 1.5rem;
+  // }
 
   p {
     margin: 0rem 1rem;
