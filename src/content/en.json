@@ -9,7 +9,7 @@
   "whatopeneewButton3": "Browse code",
   "sensorTitle": "Pyrrha Explained",
 
-  "sensorDescription1": "The Architecture: This diagram is related to the current Pyrrha prototype (V1) that is being tested.  ",
+  "sensorDescription1":"The Architecture: This diagram is related to the current Pyrrha prototype (V1) that is being tested.  ",
   "Arch-Description1":"1. The firefighter logs into the mobile phone. The credentials are authenticated with IBM App ID. The next steps assume that authentication was successful. Then the firefighter scan for Prometeo devices with the mobile app and connect to the device thought bluetooth low energy.",
   "Arch-Description2":"2. The device sensor captures gas levels. The device sends to the mobile application sensor values at regular intervals.",
   "Arch-Description3":"3. The mobile application sends data to the IBM IoT platform.",
@@ -22,9 +22,22 @@
   "Arch-Description10":"10. The central control can view the dashboard using the web browser.",
   "Arch-Description11":"11. The mobile application regularly requests firefighter status from the RulesDecision service and shows the result using the LED on the hardware device.",
 
+  "sensorTitle1": "Pyrrha Technology",
   "sensorDescription2": "Pyrrha Device: The IoT device recollects key data: temperature, humidity, and the amount of smoke (CO Concentration) ",
+
   "sensorDescription3": "Monitoring console: Dashboard with real time alerts about the environmental data from each firefighter",
+
+  "sensorTitle2": "Pyrrha In Action",
   "sensorDescription4": "Pyrrha (Prometeo V1 Testing: February 10-11, 2020, the 1st test on the field with GRAF Department from Bombers Generlitat in Barcelona. ",
+  "TestingTarget": "Testing Targets:",
+  "TestingTargetA": "A. Environmental data from firefighters ",
+  "TestingTargetB": "B. Testing casing design, size, weight, and allocation",
+  "TestingTargetC": "C. Recollecting feedback and suggestions from firefighters",
+
+  "Results": "Results:",
+  "ResultsA": "A. Data store 3 variables (Temperature, Humidity and CO Concentration) from 10 firefighters during 2 days",
+  "ResultsB": "B. Casing roadmap",
+  "ResultsC": "C. Design proposals and new allocation ideas for the device were made by firefighters",
 
 
   "sensorButtonText": "REMOVE",
