@@ -20,7 +20,7 @@ const WhoWeAre = () => {
                 kind="primary"
                 onClick={() => {
                   window.open(
-                    'https://github.com/Pyrrha-Platform',
+                    'https://github.com/Pyrrha-Platform/Pyrrha/blob/main/GET_INVOLVED.md',
                     '_blank',
                     'noopener'
                   );
