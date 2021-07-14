@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Pyrrha Website - pyrrha-platform.org
+
+This is the pyrrha-platform.org website code. It's based on the Carbon Design System and React.
+
+## React details
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
