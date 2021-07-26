@@ -1,8 +1,8 @@
 # Pyrrha website - pyrrha-platform.org
 
-This is the pyrrha-platform.org website code. It's based on the Carbon Design System and React.
-
 [![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0) [![Slack](https://img.shields.io/static/v1?label=Slack&message=%23prometeo-pyrrha&color=blue)](https://callforcode.org/slack)
+
+This is the pyrrha-platform.org website code. It's based on the Carbon Design System and React.
 
 ## React details
 
