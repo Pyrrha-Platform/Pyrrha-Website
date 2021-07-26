@@ -3,9 +3,7 @@ import {
   Header,
   HeaderName,
   HeaderGlobalAction,
-  HeaderGlobalBar,
-  HeaderNavigation,
-  HeaderMenuItem,
+  HeaderGlobalBar
 } from 'carbon-components-react/lib/components/UIShell';
 import LogoGitHub20 from '@carbon/icons-react/lib/logo--github/20';
 import LogoSlack20 from '@carbon/icons-react/lib/logo--slack/20';
