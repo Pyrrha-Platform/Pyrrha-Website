@@ -21,11 +21,13 @@ const _Header = () => {
         {t('title')}
       </HeaderName>
 
+      {/*
       <HeaderNavigation aria-label="Launch Dashboard">
-        <HeaderMenuItem target="_blank" href="http://prometeo-kubernetes-8877e2c915ebdcc9b5067e5cb2150b3c-0000.eu-gb.containers.appdomain.cloud/">
+        <HeaderMenuItem target="_blank" href="">
           Launch Dashboard
         </HeaderMenuItem>
       </HeaderNavigation>
+      */}
 
       <HeaderGlobalBar>
         <HeaderGlobalAction
