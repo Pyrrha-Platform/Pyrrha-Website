@@ -16,7 +16,7 @@ const _Header = () => {
   const { t } = useContext(AppContext);
 
   return (
-    <Header aria-label="OpenEEW" className="header--container">
+    <Header aria-label="Pyrrha" className="header--container">
       <HeaderName href="/" prefix="">
         {t('title')}
       </HeaderName>

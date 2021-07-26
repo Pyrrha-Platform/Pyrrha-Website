@@ -26,7 +26,7 @@ const WhoWeAre = () => {
                   );
                 }}
               >
-                {t('whatopeneewButtonPrimary')}
+                {t('whatpyrrhaButtonPrimary')}
               </Button>
               <Button
                 kind="tertiary"
@@ -38,7 +38,7 @@ const WhoWeAre = () => {
                   );
                 }}
               >
-                {t('whatopeneewButton2')}
+                {t('whatpyrrhaButton2')}
               </Button>
               <Button
                 kind="tertiary"
@@ -50,7 +50,7 @@ const WhoWeAre = () => {
                   );
                 }}
               >
-                {t('whatopeneewButton3')}
+                {t('whatpyrrhaButton3')}
               </Button>
             </ButtonSet>
             {/* <ArrowDown /> */}

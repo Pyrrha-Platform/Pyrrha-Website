@@ -4,9 +4,9 @@
   "informationTitle": "What is Pyrrha?",
   "informationFirstPara": "Pyrrha is an Internet-of-Things (IoT) solution that measures toxins that firefighters are exposed to when battling wildfires. It is the open source core of the Prometeo Platform that won Call for Code 2019. There are no individualized strategies to protect firefighters health and safety. Pyrrha is a cognitive platform that allows us to monitor firefighters in real time through signals and alerts.",
   "informationSecPara": "There are no individualized strategies to protect firefighters health and safety. Pyrrha is a cognitive platform that allows us to monitor firefighters in real time through signals and alerts.",
-  "whatopeneewButtonPrimary": "Get Involved",
-  "whatopeneewButton2": "Join Us On Slack",
-  "whatopeneewButton3": "Browse Code",
+  "whatpyrrhaButtonPrimary": "Get Involved",
+  "whatpyrrhaButton2": "Join Us On Slack",
+  "whatpyrrhaButton3": "Browse Code",
   "sensorTitle": "Pyrrha Explained",
 
   "sensorDescription1": "The Architecture: This diagram is related to the current Pyrrha prototype (V1) that is being tested.",
