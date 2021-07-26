@@ -208,7 +208,7 @@ const NetworkInfo = () => {
             {/* <Button
               onClick={() => {
                 window.open(
-                  "https://github.com/openeew/openeew/wiki/Build-a-Network",
+                  "https://github.com/pyrrha/pyrrha/wiki/Build-a-Network",
                   "_blank",
                   "noopener"
                 );

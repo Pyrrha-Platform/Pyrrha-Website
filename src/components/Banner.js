@@ -9,9 +9,9 @@ const Banner = () => {
 
   return (
     <section className="landing__banner">
-      <div className="landing__openEEW">
-        <div className="landing__openEEWWrapper">
-          {/* <img src={Pyrrha_logo} alt="OpenEEW Logo" /> */}
+      <div className="landing__pyrrha">
+        <div className="landing__pyrrhaWrapper">
+          {/* <img src={Pyrrha_logo} alt="Pyrrha Logo" /> */}
           <h1>Pyrrha</h1>
         </div>
         
