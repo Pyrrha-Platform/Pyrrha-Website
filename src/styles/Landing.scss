@@ -17,7 +17,7 @@
   display: flex;
   flex-wrap: wrap;
   margin: 1rem 1rem 0 1rem;
-  background-image: url(/pyrrha-hero.jpg);
+  background-image: url(../content/assets/pyrrha-hero.jpg);
   background-size: cover;
   background-attachment: fixed;
   color: white;
@@ -41,7 +41,7 @@
 
     .landing__pyrrhaWrapper {
       position: relative;
-      background-image: url(/pyrrha-hero.jpg);
+      background-image: url(../content/assets/pyrrha-hero.jpg);
 
       h1 {
         @include carbon--type-style("expressive-heading-06");

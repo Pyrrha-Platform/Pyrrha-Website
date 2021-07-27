@@ -18,7 +18,6 @@ const SensorInfo = () => {
     <section>
       <Grid className="info-section">
         <Row className="info-text">
-          {/* TODO: Get text from json. */}
           <Column lg={4}>
             <h2>{t("sensorTitle")}</h2>
           </Column>
@@ -27,7 +26,6 @@ const SensorInfo = () => {
           </Column>
         </Row>
         <Row className="info-textz">
-          {/* TODO: Get text from json. */}
           <Column lg={4}></Column>
           <Column lg={6}>
             <img
@@ -37,40 +35,37 @@ const SensorInfo = () => {
             ></img>
           </Column>
         </Row>
-
         <Row className="info-textz">
-          {/* TODO: Get text from json. */}
           <Column lg={4}></Column>
           <Column lg={12} style={{ border: "1px" }}>
             <div className="archdescrip">
               <h4>{t("Arch-Description1")}</h4>
-              <br></br>
+              <br />
               <h4>{t("Arch-Description2")}</h4>
-              <br></br>
+              <br />
               <h4>{t("Arch-Description3")}</h4>
-              <br></br>
+              <br />
               <h4>{t("Arch-Description4")}</h4>
-              <br></br>
+              <br />
               <h4>{t("Arch-Description5")}</h4>
-              <br></br>
+              <br />
               <h4>{t("Arch-Description6")}</h4>
-              <br></br>
+              <br />
               <h4>{t("Arch-Description7")}</h4>
-              <br></br>
+              <br />
               <h4>{t("Arch-Description8")}</h4>
-              <br></br>
+              <br />
               <h4>{t("Arch-Description9")}</h4>
-              <br></br>
+              <br />
               <h4>{t("Arch-Description10")}</h4>
-              <br></br>
+              <br />
               <h4>{t("Arch-Description11")}</h4>
-              <br></br>
+              <br />
             </div>
           </Column>
         </Row>
 
         <Row className="info-text">
-          {/* TODO: Get text from json. */}
           <Column lg={4}>
             <h2>{t("sensorTitle1")}</h2>
           </Column>
@@ -79,7 +74,6 @@ const SensorInfo = () => {
             <Column lg={{ span: 6, offset: 0 }}>
               <a href={deviceFull}><img className="device" src={device} alt="Pyrrha device" /></a>
             </Column>
-
             <h3>{t("sensorDescription3")}</h3>
             <Column lg={{ span: 6, offset: 0 }}>
               <img className="dash" src={dash} alt="Prometeo dashboard"></img>
@@ -88,7 +82,6 @@ const SensorInfo = () => {
         </Row>
 
         <Row className="info-text">
-          {/* TODO: Get text from json. */}
           <Column lg={4}>
             <h2>{t("sensorTitle2")}</h2>
           </Column>
@@ -103,15 +96,15 @@ const SensorInfo = () => {
             </Column>
             <div classname="tests">
               <h3>{t("TestingTarget")}</h3>
-              <br></br>
+              <br />
               <h4>{t("TestingTargetA")}</h4>
               <h4>{t("TestingTargetB")}</h4>
               <h4>{t("TestingTargetC")}</h4>
-              <br></br>
+              <br />
             </div>
             <div classname="results">
               <h3>{t("Results")}</h3>
-              <br></br>
+              <br />
               <h4>{t("ResultsA")}</h4>
               <h4>{t("ResultsB")}</h4>
               <h4>{t("ResultsC")}</h4>
@@ -130,9 +123,8 @@ const DashboardInfo = () => {
     <section>
       <Grid className="info-section">
         <Row className="info-text">
-          {/* TODO: Get text from json. */}
           <Column lg={4}>
-            <h4>{t("dashboardTitle")}</h4>
+            <h2>{t("dashboardTitle")}</h2>
           </Column>
           <Column lg={8}>
             <h3>{t("dashboardDescription")}</h3>
@@ -141,34 +133,31 @@ const DashboardInfo = () => {
         <Row className="info-media">
           <Column lg={{ span: 12, offset: 3 }}>
             <div class="gallery">
-              <img src={salome} alt="Salome valero"></img>
+              <img src={salome} alt="Salomé Valero"></img>
               <div class="desc">
-                <p>Salomé Valero </p>
-                <p>Chief Executive Officer </p>
+                <p>Salomé Valero</p>
+                <p>Chief Executive Officer</p>
                 <p>Co-Founder</p>
               </div>
             </div>
-
             <div class="gallery">
-              <img src={marco} alt="Marco Emilio Rodriquez Serrano"></img>
+              <img src={marco} alt="Marco Emilio Rodríguez Serrano" />
               <div class="desc">
                 <p>Marco Emilio Rodríguez Serrano</p>
-                <p> Chief Technology Officer </p>
+                <p>Chief Technology Officer</p>
                 <p>Co-Founder</p>
               </div>
             </div>
-
             <div class="gallery">
-              <img src={joan} alt="Joan Herrera"></img>
+              <img src={joan} alt="Joan Herrera" />
               <div class="desc">
-                <p>Joan Herrera </p>
+                <p>Joan Herrera</p>
                 <p>Chief Operating Officer</p>
                 <p>Co-Founder</p>
               </div>
             </div>
-
             <div class="gallery">
-              <img src={artur} alt="Artur Alvarez"></img>
+              <img src={artur} alt="Artur Álvarez" />
               <div class="desc">
                 <p>Artur Álvarez</p>
                 <p>Media Producer</p>
@@ -190,7 +179,6 @@ const NetworkInfo = () => {
       {" "}
       <Grid className="info-section">
         <Row className="info-text">
-          {/* TODO: Get text from json. */}
           <Column lg={4}>
             <h2>{t("networkTitle")}</h2>
           </Column>
@@ -200,30 +188,14 @@ const NetworkInfo = () => {
             <h4>{t("networkDescription3")}</h4>
             <h4>{t("networkDescription4")}</h4>
             <h4>{t("networkDescription5")}</h4>
-            <h4>{t("networkDescription6")}</h4>
           </Column>
           <Column lg={{ span: 3, offset: 1 }}>
-            {/* <Button
-              onClick={() => {
-                window.open(
-                  "https://github.com/pyrrha/pyrrha/wiki/Build-a-Network",
-                  "_blank",
-                  "noopener"
-                );
-              }}
-              kind="secondary"
-            >
-              {t('networkButtonText')}
-            </Button> */}
+
           </Column>
         </Row>
         <Row className="info-media">
           <Column lg={{ span: 11, offset: 4 }}>
-            {/* <img
-              className="dashboard-image"
-              src={hazardmap}
-              alt="Earthquake hazard map"
-            ></img> */}
+
           </Column>
         </Row>
       </Grid>
