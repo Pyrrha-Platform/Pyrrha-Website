@@ -26,7 +26,6 @@
     height: 50vh;
     margin: 7rem auto;
     height: 35rem;
-    // max-width: 90rem;
   }
 
   .landing__pyrrha {
@@ -94,9 +93,7 @@
 .landing__diagram {
   display: flex;
   justify-content: center;
-  background-color: #b14a34;
-  //border-top: 1px solid white;
-  //border-bottom: 1px solid white;
+  background-color: #CC3D3D;
   padding: 1rem;
   margin-top: 5rem;
 
@@ -152,7 +149,7 @@
     float: left;
 
     .bx--btn--primary {
-      background-color: #b14a34;
+      background-color: #CC3D3D;
       max-width: 14rem;
     }
 
@@ -178,7 +175,7 @@
 
   .info-text {
     padding-top: 40px;
-    border-top: 1px solid #b14a34;
+    border-top: 1px solid #CC3D3D;
     div[class^="bx--col"] {
       margin-top: 10px;
     }
@@ -220,7 +217,7 @@
   button {
     width: 100%;
     background-color: inherit;
-    border: 2px solid #b14a34;
+    border: 2px solid #CC3D3D;
   }
 }
 
@@ -238,13 +235,6 @@
   padding: 0 43px 0 0;
 }
 
-// .gallery-image {
-//   width: 100%;
-//   height: auto;
-//   text-align: center;
-// }
-
-//description for the team contact images
 .desc {
   padding: 10px;
   text-align: center;
@@ -253,8 +243,8 @@
 }
 
 footer {
-  background-color: #b14a34;
-  border-top: 1px solid #b14a34;
+  background-color: #CC3D3D;
+  border-top: 1px solid #CC3D3D;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -265,6 +255,7 @@ footer {
 
   a {
     text-decoration: none;
+    color: #393E40;
   }
 
   h4 {
@@ -272,10 +263,10 @@ footer {
     font-size: 1.5rem;
   }
 
-  // h4 {
-  // margin: 2rem 1rem;
-  // font-size: 1.5rem;
-  // }
+  li {
+    margin: 2rem 1rem;
+    font-size: 1.25rem;
+  }
 
   p {
     margin: 0rem 1rem;

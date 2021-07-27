@@ -19,10 +19,10 @@ const SensorInfo = () => {
       <Grid className="info-section">
         <Row className="info-text">
           <Column lg={4}>
-            <h2>{t("sensorTitle")}</h2>
+            <h2>{t("architectureTitle")}</h2>
           </Column>
           <Column lg={8}>
-            <h3>{t("sensorDescription1")}</h3>
+            <h3>{t("architectureDescription")}</h3>
           </Column>
         </Row>
         <Row className="info-textz">
@@ -39,42 +39,43 @@ const SensorInfo = () => {
           <Column lg={4}></Column>
           <Column lg={12} style={{ border: "1px" }}>
             <div className="archdescrip">
-              <h4>{t("Arch-Description1")}</h4>
-              <br />
-              <h4>{t("Arch-Description2")}</h4>
-              <br />
-              <h4>{t("Arch-Description3")}</h4>
-              <br />
-              <h4>{t("Arch-Description4")}</h4>
-              <br />
-              <h4>{t("Arch-Description5")}</h4>
-              <br />
-              <h4>{t("Arch-Description6")}</h4>
-              <br />
-              <h4>{t("Arch-Description7")}</h4>
-              <br />
-              <h4>{t("Arch-Description8")}</h4>
-              <br />
-              <h4>{t("Arch-Description9")}</h4>
-              <br />
-              <h4>{t("Arch-Description10")}</h4>
-              <br />
-              <h4>{t("Arch-Description11")}</h4>
-              <br />
+              <ol>
+                <li>{t("architectureDescription1")}</li>
+                <br />
+                <li>{t("architectureDescription2")}</li>
+                <br />
+                <li>{t("architectureDescription3")}</li>
+                <br />
+                <li>{t("architectureDescription4")}</li>
+                <br />
+                <li>{t("architectureDescription5")}</li>
+                <br />
+                <li>{t("architectureDescription6")}</li>
+                <br />
+                <li>{t("architectureDescription7")}</li>
+                <br />
+                <li>{t("architectureDescription8")}</li>
+                <br />
+                <li>{t("architectureDescription9")}</li>
+                <br />
+                <li>{t("architectureDescription10")}</li>
+                <br />
+                <li>{t("architectureDescription11")}</li>
+              </ol>
             </div>
           </Column>
         </Row>
 
         <Row className="info-text">
           <Column lg={4}>
-            <h2>{t("sensorTitle1")}</h2>
+            <h2>{t("technologyTitle")}</h2>
           </Column>
           <Column lg={8}>
-            <h3>{t("sensorDescription2")}</h3>
+            <h3>{t("technologyDescription2")}</h3>
             <Column lg={{ span: 6, offset: 0 }}>
               <a href={deviceFull}><img className="device" src={device} alt="Pyrrha device" /></a>
             </Column>
-            <h3>{t("sensorDescription3")}</h3>
+            <h3>{t("technologyDescription3")}</h3>
             <Column lg={{ span: 6, offset: 0 }}>
               <img className="dash" src={dash} alt="Prometeo dashboard"></img>
             </Column>
@@ -83,10 +84,10 @@ const SensorInfo = () => {
 
         <Row className="info-text">
           <Column lg={4}>
-            <h2>{t("sensorTitle2")}</h2>
+            <h2>{t("actionTitle")}</h2>
           </Column>
           <Column lg={8}>
-            <h3>{t("sensorDescription4")}</h3>
+            <h3>{t("actionDescription1")}</h3>
             <Column lg={{ span: 6, offset: 0 }}>
               <img
                 className="testing"
@@ -95,19 +96,21 @@ const SensorInfo = () => {
               ></img>
             </Column>
             <div classname="tests">
-              <h3>{t("TestingTarget")}</h3>
-              <br />
-              <h4>{t("TestingTargetA")}</h4>
-              <h4>{t("TestingTargetB")}</h4>
-              <h4>{t("TestingTargetC")}</h4>
+              <h3>{t("actionDescription2")}</h3>
+              <ol>
+                <li>{t("actionDescription3")}</li>
+                <li>{t("actionDescription4")}</li>
+                <li>{t("actionDescription5")}</li>
+              </ol>
               <br />
             </div>
             <div classname="results">
-              <h3>{t("Results")}</h3>
-              <br />
-              <h4>{t("ResultsA")}</h4>
-              <h4>{t("ResultsB")}</h4>
-              <h4>{t("ResultsC")}</h4>
+              <h3>{t("actionDescription6")}</h3>
+              <ol>
+                <li>{t("actionDescription7")}</li>
+                <li>{t("actionDescription8")}</li>
+                <li>{t("actionDescription9")}</li>
+              </ol>
             </div>
           </Column>
         </Row>
@@ -124,10 +127,10 @@ const DashboardInfo = () => {
       <Grid className="info-section">
         <Row className="info-text">
           <Column lg={4}>
-            <h2>{t("dashboardTitle")}</h2>
+            <h2>{t("teamTitle")}</h2>
           </Column>
           <Column lg={8}>
-            <h3>{t("dashboardDescription")}</h3>
+            <h3>{t("teamDescription")}</h3>
           </Column>
         </Row>
         <Row className="info-media">
@@ -180,14 +183,16 @@ const NetworkInfo = () => {
       <Grid className="info-section">
         <Row className="info-text">
           <Column lg={4}>
-            <h2>{t("networkTitle")}</h2>
+            <h2>{t("teamDescription1")}</h2>
           </Column>
           <Column lg={8}>
-            <h4>{t("networkDescription1")}</h4>
-            <h4>{t("networkDescription2")}</h4>
-            <h4>{t("networkDescription3")}</h4>
-            <h4>{t("networkDescription4")}</h4>
-            <h4>{t("networkDescription5")}</h4>
+            <ol>
+              <li>{t("teamDescription2")}</li>
+              <li>{t("teamDescription3")}</li>
+              <li>{t("teamDescription4")}</li>
+              <li>{t("teamDescription5")}</li>
+              <li>{t("teamDescription6")}</li>
+            </ol>
           </Column>
           <Column lg={{ span: 3, offset: 1 }}>
 
