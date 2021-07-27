@@ -17,10 +17,9 @@
   display: flex;
   flex-wrap: wrap;
   margin: 1rem 1rem 0 1rem;
-  background-image: url(https://cdn.discordapp.com/attachments/425380933315592192/864139480599625768/B8E67162-EF93-497C-B88F-36BEE42461E2.jpeg);
+  background-image: url(/pyrrha-hero.jpg);
   background-size: cover;
   background-attachment: fixed;
-  // background-color: white
   color: white;
 
   @media screen and (min-width: $medium) {
@@ -42,7 +41,7 @@
 
     .landing__pyrrhaWrapper {
       position: relative;
-      background-image: url(https://media.discordapp.net/attachments/425380933315592192/857348263102513152/Prometeo-ack.jpg?width=1968&height=1312);
+      background-image: url(/pyrrha-hero.jpg);
 
       h1 {
         @include carbon--type-style("expressive-heading-06");

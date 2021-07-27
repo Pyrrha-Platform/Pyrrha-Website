@@ -17,7 +17,7 @@ const Footer = (props) => {
         </a>
         {t('footer2')}
         <a
-          href="https://grillo.io"
+          href="https://pyrrha-project.org/"
           rel="noopener noreferrer"
           target="_blank"
         >

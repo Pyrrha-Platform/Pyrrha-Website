@@ -31,7 +31,7 @@ const _Header = () => {
         <HeaderGlobalAction
           aria-label="GitHub"
           target="_blank"
-          href="https://github.com/Pyrrha-Platform"
+          href="https://github.com/Pyrrha-Platform/"
           tooltipAlignment="end"
         >
           <LogoGitHub20 />
