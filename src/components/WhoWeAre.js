@@ -1,6 +1,5 @@
 import React, { useContext } from 'react';
 import { Grid, Row, Column, Button, ButtonSet } from 'carbon-components-react';
-// import ArrowDown from '@carbon/icons-react/lib/arrow--down/32';
 import AppContext from '../context/app';
 
 const WhoWeAre = () => {
@@ -14,7 +13,7 @@ const WhoWeAre = () => {
             <h3>{t('informationTitle')}</h3>
             <p>{t('informationFirstPara')}</p>
             {/* <p>{t('informationSecPara')}</p> */}
-            
+
             <ButtonSet className="landing__buttonSet">
               <Button
                 kind="primary"
@@ -26,7 +25,7 @@ const WhoWeAre = () => {
                   );
                 }}
               >
-                {t('whatpyrrhaButtonPrimary')}
+                {t('pyrrhaButtonGetInvolved')}
               </Button>
               <Button
                 kind="tertiary"
@@ -38,7 +37,7 @@ const WhoWeAre = () => {
                   );
                 }}
               >
-                {t('whatpyrrhaButton2')}
+                {t('pyrrhaButtonJoinSlack')}
               </Button>
               <Button
                 kind="tertiary"
@@ -50,12 +49,10 @@ const WhoWeAre = () => {
                   );
                 }}
               >
-                {t('whatpyrrhaButton3')}
+                {t('pyrrhaButtonBrowseCode')}
               </Button>
             </ButtonSet>
-            {/* <ArrowDown /> */}
           </Column>
-
         </Row>
       </Grid>
     </section>
