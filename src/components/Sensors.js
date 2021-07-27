@@ -2,16 +2,14 @@ import React, { useContext } from "react";
 import board from "../content/assets/pyrrha-arch.jpg";
 import AppContext from "../context/app";
 import dash from "../content/assets/Pyrrha-dashboardSS.png";
-import device from "../content/assets/pyrrha-device.png";
+import device from "../content/assets/pyrrha-device-opt.png";
+import deviceFull from "../content/assets/pyrrha-device.png";
 import test from "../content/assets/pyrrha-testing.png";
 import { Grid, Row, Column } from "carbon-components-react";
-// import nodeGray from '../content/assets/Prometeo-device.jpg';
-// import dashboard from '../content/assets/dash.jpg';
 import salome from "../content/assets/Salome-Valero.jpeg";
 import marco from "../content/assets/Marco-Emilio-Rodriguez-Serrano.jpeg";
 import joan from "../content/assets/Joan-Herrera.jpeg";
-import Artur from "../content/assets/Artur-Alvarez.jpeg";
-// import hazardmap from '../content/assets/Prometeo-ack.jpg';
+import artur from "../content/assets/Artur-Alvarez.jpeg";
 
 const SensorInfo = () => {
   const { t } = useContext(AppContext);
@@ -79,12 +77,12 @@ const SensorInfo = () => {
           <Column lg={8}>
             <h3>{t("sensorDescription2")}</h3>
             <Column lg={{ span: 6, offset: 0 }}>
-              <img className="device" src={device} alt="pyrrha device"></img>
+              <a href={deviceFull}><img className="device" src={device} alt="Pyrrha device" /></a>
             </Column>
 
             <h3>{t("sensorDescription3")}</h3>
             <Column lg={{ span: 6, offset: 0 }}>
-              <img className="dash" src={dash} alt="prometeo dashboard"></img>
+              <img className="dash" src={dash} alt="Prometeo dashboard"></img>
             </Column>
           </Column>
         </Row>
@@ -170,7 +168,7 @@ const DashboardInfo = () => {
             </div>
 
             <div class="gallery">
-              <img src={Artur} alt="Artur Alvarez"></img>
+              <img src={artur} alt="Artur Alvarez"></img>
               <div class="desc">
                 <p>Artur Álvarez</p>
                 <p>Media Producer</p>
