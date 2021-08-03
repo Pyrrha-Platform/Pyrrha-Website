@@ -1,6 +1,6 @@
-import React, { useContext } from 'react';
+import React, { useContext } from "react";
 
-import AppContext from '../context/app';
+import AppContext from "../context/app";
 
 const Banner = () => {
   const { t } = useContext(AppContext);
@@ -13,7 +13,7 @@ const Banner = () => {
         </div>
       </div>
       <div className="landing__mission">
-        <h2>{t('bannerMission')}</h2>
+        <h2>{t("bannerMission")}</h2>
       </div>
     </section>
   );

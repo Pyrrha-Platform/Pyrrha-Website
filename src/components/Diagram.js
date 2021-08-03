@@ -1,5 +1,5 @@
-import React from 'react';
-import landscape from '../content/assets/Prometeo_header.jpg';
+import React from "react";
+import landscape from "../content/assets/Prometeo_header.jpg";
 
 const Banner = () => {
   return (
