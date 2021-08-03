@@ -1,5 +1,5 @@
-import React, { useContext } from 'react';
-import AppContext from '../context/app';
+import React, { useContext } from "react";
+import AppContext from "../context/app";
 
 const Footer = (props) => {
   const { t } = useContext(AppContext);
@@ -7,25 +7,25 @@ const Footer = (props) => {
   return (
     <footer>
       <h4>
-        {t('footer')}
+        {t("footer")}
         <a
           href="https://www.linuxfoundation.org/projects/call-for-code/"
           rel="noopener noreferrer"
           target="_blank"
         >
-          {t('footerLink')}
+          {t("footerLink")}
         </a>
-        {t('footer2')}
+        {t("footer2")}
         <a
           href="https://pyrrha-project.org/"
           rel="noopener noreferrer"
           target="_blank"
         >
-          {t('footerLink2')}
+          {t("footerLink2")}
         </a>
       </h4>
-      <p>{t('copyright')}</p>
-      <small>{t('copyrightInfo')}</small>
+      <p>{t("copyright")}</p>
+      <small>{t("copyrightInfo")}</small>
     </footer>
   );
 };

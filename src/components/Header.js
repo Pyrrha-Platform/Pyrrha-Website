@@ -1,14 +1,14 @@
-import React, { useContext } from 'react';
+import React, { useContext } from "react";
 import {
   Header,
   HeaderName,
   HeaderGlobalAction,
-  HeaderGlobalBar
-} from 'carbon-components-react/lib/components/UIShell';
-import LogoGitHub20 from '@carbon/icons-react/lib/logo--github/20';
-import LogoSlack20 from '@carbon/icons-react/lib/logo--slack/20';
+  HeaderGlobalBar,
+} from "carbon-components-react/lib/components/UIShell";
+import LogoGitHub20 from "@carbon/icons-react/lib/logo--github/20";
+import LogoSlack20 from "@carbon/icons-react/lib/logo--slack/20";
 
-import AppContext from '../context/app';
+import AppContext from "../context/app";
 
 const _Header = () => {
   const { t } = useContext(AppContext);
@@ -16,7 +16,7 @@ const _Header = () => {
   return (
     <Header aria-label="Pyrrha" className="header--container">
       <HeaderName href="/" prefix="">
-        {t('title')}
+        {t("title")}
       </HeaderName>
 
       {/*

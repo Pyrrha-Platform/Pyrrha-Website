@@ -1,5 +1,5 @@
-import { createContext } from 'react';
-import { useTranslation } from 'react-i18next';
+import { createContext } from "react";
+import { useTranslation } from "react-i18next";
 
 export default createContext({});
 

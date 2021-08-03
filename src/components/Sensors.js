@@ -73,7 +73,9 @@ const SensorInfo = () => {
           <Column lg={8}>
             <h3>{t("technologyDescription2")}</h3>
             <Column lg={{ span: 6, offset: 0 }}>
-              <a href={deviceFull}><img className="device" src={device} alt="Pyrrha device" /></a>
+              <a href={deviceFull}>
+                <img className="device" src={device} alt="Pyrrha device" />
+              </a>
             </Column>
             <h3>{t("technologyDescription3")}</h3>
             <Column lg={{ span: 6, offset: 0 }}>
@@ -194,14 +196,10 @@ const NetworkInfo = () => {
               <li>{t("teamDescription6")}</li>
             </ol>
           </Column>
-          <Column lg={{ span: 3, offset: 1 }}>
-
-          </Column>
+          <Column lg={{ span: 3, offset: 1 }}></Column>
         </Row>
         <Row className="info-media">
-          <Column lg={{ span: 11, offset: 4 }}>
-
-          </Column>
+          <Column lg={{ span: 11, offset: 4 }}></Column>
         </Row>
       </Grid>
     </section>
