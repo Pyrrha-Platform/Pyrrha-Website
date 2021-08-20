@@ -29,14 +29,14 @@
   margin-bottom: 7rem;
 
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: $tablet){
 	height: 60vh;
 	background-attachment: initial;
 
 
 }
 
-@media only screen and (max-width: 550px){
+@media only screen and (max-width: $smartphone){
 	margin-bottom:5rem;
 	background-attachment: initial; 
 
@@ -53,7 +53,7 @@
 .col__banner__subtitle{
 	padding-top:15%;
 
-@media only screen and (max-width: 1100px){
+@media only screen and (max-width: $mediumscreen){
 	display: none;
 }
 
@@ -67,7 +67,7 @@
       font-size: 10rem;
       position: absolute;
 
-@media only screen and (max-width: 550px){
+@media only screen and (max-width: $smartphone){
 	font-size: 6rem;
 }
 
