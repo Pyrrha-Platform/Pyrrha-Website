@@ -31,10 +31,15 @@
 
 @media only screen and (max-width: 800px){
 	height: 60vh;
+	background-attachment: initial;
+
+
 }
 
 @media only screen and (max-width: 550px){
 	margin-bottom:5rem;
+	background-attachment: initial; 
+
 }
 
  }
