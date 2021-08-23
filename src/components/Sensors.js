@@ -97,7 +97,7 @@ const SensorInfo = () => {
                 alt="pyrrha testing pic"
               ></img>
             </Column>
-            <div classname="tests">
+            <div className="tests">
               <h3>{t("actionDescription2")}</h3>
               <ol>
                 <li>{t("actionDescription3")}</li>
@@ -106,7 +106,7 @@ const SensorInfo = () => {
               </ol>
               <br />
             </div>
-            <div classname="results">
+            <div className="results">
               <h3>{t("actionDescription6")}</h3>
               <ol>
                 <li>{t("actionDescription7")}</li>
@@ -136,41 +136,57 @@ const DashboardInfo = () => {
           </Column>
         </Row>
         <Row className="info-media">
-          <Column lg={{ span: 12, offset: 3 }}>
-            <div class="gallery">
+          <Column className="col__media">
+          <div className="gallery">
               <img src={salome} alt="Salomé Valero"></img>
-              <div class="desc">
+              <div className="desc">
                 <p>Salomé Valero</p>
                 <p>Chief Executive Officer</p>
                 <p>Co-Founder</p>
               </div>
             </div>
-            <div class="gallery">
+           
+	  </Column>
+	  
+	  <Column className="col__media">
+
+	  <div className="gallery">
               <img src={marco} alt="Marco Emilio Rodríguez Serrano" />
-              <div class="desc">
+              <div className="desc">
                 <p>Marco Emilio Rodríguez Serrano</p>
                 <p>Chief Technology Officer</p>
                 <p>Co-Founder</p>
               </div>
             </div>
-            <div class="gallery">
+          </Column>
+	
+	  <Column className="col__media">
+
+
+	  <div className="gallery">
               <img src={joan} alt="Joan Herrera" />
-              <div class="desc">
+              <div className="desc">
                 <p>Joan Herrera</p>
                 <p>Chief Operating Officer</p>
                 <p>Co-Founder</p>
               </div>
             </div>
-            <div class="gallery">
+          </Column>
+
+	<Column className="col__media">
+
+
+	  <div className="gallery">
               <img src={artur} alt="Artur Álvarez" />
-              <div class="desc">
+              <div className="desc">
                 <p>Artur Álvarez</p>
                 <p>Media Producer</p>
                 <p>Co-Founder</p>
               </div>
             </div>
           </Column>
-        </Row>
+
+	  </Row>
       </Grid>
     </section>
   );

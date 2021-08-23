@@ -13,81 +13,126 @@
   right: 95px;
 }
 
+// New Banner Responsive
+
 .landing__banner {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 1rem 1rem 0 1rem;
+  display: block;
+  height:100vh;
+  width:100%;
   background-image: url(../content/assets/pyrrha-hero.jpg);
-  background-size: cover;
+  background-position-y: 0px;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   color: white;
+  background-size: cover;
+  margin-top: 7rem;
+  margin-bottom: 7rem;
 
-  @media screen and (min-width: $medium) {
-    height: 50vh;
-    margin: 7rem auto;
-    height: 35rem;
-  }
 
-  .landing__pyrrha {
-    flex: 0 0 100%;
+@media only screen and (max-width: $tablet){
+	height: 60vh;
+	background-attachment: initial;
 
-    @media screen and (min-width: $medium) {
-      flex: 0 0 50%;
-      display: flex;
-      align-items: center;
-      padding: 6rem 0 19.5rem 8rem;
-    }
 
-    .landing__pyrrhaWrapper {
-      position: relative;
-      background-image: url(../content/assets/pyrrha-hero.jpg);
+}
 
-      h1 {
-        @include carbon--type-style("expressive-heading-06");
-        font-size: 10rem;
-        position: absolute;
-        top: 5px;
-        left: 105px;
+@media only screen and (max-width: $smartphone){
+	margin-bottom:5rem;
+	background-attachment: initial; 
 
-        @media screen and (min-width: $medium) {
-          width: 7rem;
-          top: -1px;
-          left: 90px;
-        }
-      }
+}
 
-      img {
-        width: 5rem;
-        margin-bottom: 1rem;
+ }
 
-        @media screen and (min-width: $medium) {
-          width: 6rem;
-        }
-      }
+// Banner Grid
 
-      @media screen and (min-width: $medium) {
-        display: flex;
-      }
-    }
-  }
+.col__banner__title{
+	padding-top:15%;
+}
 
-  .landing__mission {
-    margin-top: 1rem;
+.col__banner__subtitle{
+	padding-top:15%;
 
-    @media screen and (min-width: $medium) {
-      flex: 0 0 50%;
-      display: flex;
-      align-items: center;
-      padding: 0rem;
-    }
+@media only screen and (max-width: $mediumscreen){
+	display: none;
+}
 
-    h2 {
-      @include carbon--type-style("expressive-heading-05");
-      border-left: 4px solid;
-      padding-left: 2rem;
-      font-size: 2.5rem;
-    }
-  }
+}
+
+// Banner Title Responsive
+
+.BannerTitle{
+      @include carbon--type-style("expressive-heading-06");
+      display:block;
+      font-size: 10rem;
+      position: absolute;
+
+@media only screen and (max-width: $smartphone){
+	font-size: 6rem;
+}
+
+}
+
+// Banner Subtitle Responsive Widescreen
+
+.BannerSubtitle{
+    font-weight: 400;
+    line-height: 1.25;
+    letter-spacing: 0;
+    border-left: 4px solid;
+    padding-left: 2rem;
+    font-size: 2.5rem;
+}
+
+// Banner Subtitle Responsive Laptop Tablet Mobile 
+
+.BannerSubtitle_Responsive{
+    font-weight: 400;
+    line-height: 1.25;
+    letter-spacing: 0;
+    border-left: 4px solid;
+    padding-left: 2rem;
+    font-size: 2.5rem;
+    display: none;
+    margin-top: 14rem;
+
+    @media only screen and (max-width: $mediumscreen){
+	display:block;
+}
+
+
+    @media only screen and (max-width: $tablet){
+	display:block;
+	margin-top: 12rem;
+}
+
+    @media only screen and (max-width: 700px){
+	display:block;
+	font-size: 2rem;
+
+
+
+}
+
+    @media only screen and (max-width: $smartphone){
+	display:block;
+	font-size: 1.5rem;
+	margin-top:10rem;
+
+
+
+}
+
+@media only screen and (max-width: $small){
+	display:block;
+	font-size: 1.3rem;
+	margin-top:9rem;
+
+
+
+}
+
+
 }
 
 .landing__diagram {
@@ -184,25 +229,25 @@
   .sensor-image {
     margin-top: 2vw;
     margin-bottom: 1.5vw;
-    width: 150%;
+    width: 100%;
   }
 
   .device {
     margin-top: 1vw;
     margin-bottom: 1.5vw;
-    width: 250%;
+    width: 100%;
   }
 
   .dash {
     margin-top: 1vw;
     margin-bottom: 4vw;
-    width: 400%;
+    width: 100%;
   }
 
   .testing {
     margin-top: 1vw;
     margin-bottom: 1.5vw;
-    width: 260%;
+    width: 100%;
   }
 
   .archdescrip {
@@ -219,7 +264,6 @@
     background-color: inherit;
     border: 2px solid #cc3d3d;
   }
-}
 
 // Dashboard information section
 .dashboard-image {
@@ -228,20 +272,25 @@
 }
 
 //alignment for the team images/text
+
+//Responsiv Column Team section
+
+.col__media{
+	padding-right:0;
+}
+
 .gallery {
-  margin: 20px 50px -100px 50px;
+margin-top:3rem;	
   float: left;
-  width: 15%;
   padding: 0 43px 0 0;
 }
 
 .desc {
-  padding: 10px;
   text-align: center;
   @include carbon--type-style("body-short-02");
-  width: 200%;
+  padding-top:1rem;
 }
-
+}
 footer {
   background-color: #cc3d3d;
   border-top: 1px solid #cc3d3d;
