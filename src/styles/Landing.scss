@@ -17,8 +17,8 @@
 
 .landing__banner {
   display: block;
-  height:100vh;
-  width:100%;
+  height: 100vh;
+  width: 100%;
   background-image: url(../content/assets/pyrrha-hero.jpg);
   background-position-y: 0px;
   background-repeat: no-repeat;
@@ -28,111 +28,92 @@
   margin-top: 7rem;
   margin-bottom: 7rem;
 
+  @media only screen and (max-width: $tablet) {
+    height: 60vh;
+    background-attachment: initial;
+  }
 
-@media only screen and (max-width: $tablet){
-	height: 60vh;
-	background-attachment: initial;
-
-
+  @media only screen and (max-width: $smartphone) {
+    margin-bottom: 5rem;
+    background-attachment: initial;
+  }
 }
-
-@media only screen and (max-width: $smartphone){
-	margin-bottom:5rem;
-	background-attachment: initial; 
-
-}
-
- }
 
 // Banner Grid
 
-.col__banner__title{
-	padding-top:15%;
+.col__banner__title {
+  padding-top: 15%;
 }
 
-.col__banner__subtitle{
-	padding-top:15%;
+.col__banner__subtitle {
+  padding-top: 15%;
 
-@media only screen and (max-width: $mediumscreen){
-	display: none;
-}
-
+  @media only screen and (max-width: $mediumscreen) {
+    display: none;
+  }
 }
 
 // Banner Title Responsive
 
-.BannerTitle{
-      @include carbon--type-style("expressive-heading-06");
-      display:block;
-      font-size: 10rem;
-      position: absolute;
+.BannerTitle {
+  @include carbon--type-style("expressive-heading-06");
+  display: block;
+  font-size: 10rem;
+  position: absolute;
 
-@media only screen and (max-width: $smartphone){
-	font-size: 6rem;
-}
-
+  @media only screen and (max-width: $smartphone) {
+    font-size: 6rem;
+  }
 }
 
 // Banner Subtitle Responsive Widescreen
 
-.BannerSubtitle{
-    font-weight: 400;
-    line-height: 1.25;
-    letter-spacing: 0;
-    border-left: 4px solid;
-    padding-left: 2rem;
-    font-size: 2.5rem;
+.BannerSubtitle {
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0;
+  border-left: 4px solid;
+  padding-left: 2rem;
+  font-size: 2.5rem;
 }
 
-// Banner Subtitle Responsive Laptop Tablet Mobile 
+// Banner Subtitle Responsive Laptop Tablet Mobile
 
-.BannerSubtitle_Responsive{
-    font-weight: 400;
-    line-height: 1.25;
-    letter-spacing: 0;
-    border-left: 4px solid;
-    padding-left: 2rem;
-    font-size: 2.5rem;
-    display: none;
-    margin-top: 14rem;
+.BannerSubtitle_Responsive {
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0;
+  border-left: 4px solid;
+  padding-left: 2rem;
+  font-size: 2.5rem;
+  display: none;
+  margin-top: 14rem;
 
-    @media only screen and (max-width: $mediumscreen){
-	display:block;
-}
+  @media only screen and (max-width: $mediumscreen) {
+    display: block;
+  }
 
+  @media only screen and (max-width: $tablet) {
+    display: block;
+    margin-top: 12rem;
+  }
 
-    @media only screen and (max-width: $tablet){
-	display:block;
-	margin-top: 12rem;
-}
+  @media only screen and (max-width: 700px) {
+    display: block;
+    font-size: 2rem;
+  }
 
-    @media only screen and (max-width: 700px){
-	display:block;
-	font-size: 2rem;
+  @media only screen and (max-width: $smartphone) {
+    display: block;
+    font-size: 1.5rem;
+    margin-top: 10rem;
+  }
 
-
-
-}
-
-    @media only screen and (max-width: $smartphone){
-	display:block;
-	font-size: 1.5rem;
-	margin-top:10rem;
-
-
-
-}
-
-@media only screen and (max-width: $small){
-	display:block;
-	font-size: 1.3rem;
-	margin-top:9rem;
-
-
-
-}
-
-
+  @media only screen and (max-width: $small) {
+    display: block;
+    font-size: 1.3rem;
+    margin-top: 9rem;
+  }
 }
 
 .landing__diagram {
@@ -265,31 +246,31 @@
     border: 2px solid #cc3d3d;
   }
 
-// Dashboard information section
-.dashboard-image {
-  margin-top: 5vw;
-  width: 100%;
-}
+  // Dashboard information section
+  .dashboard-image {
+    margin-top: 5vw;
+    width: 100%;
+  }
 
-//alignment for the team images/text
+  //alignment for the team images/text
 
-//Responsiv Column Team section
+  //Responsiv Column Team section
 
-.col__media{
-	padding-right:0;
-}
+  .col__media {
+    padding-right: 0;
+  }
 
-.gallery {
-margin-top:3rem;	
-  float: left;
-  padding: 0 43px 0 0;
-}
+  .gallery {
+    margin-top: 3rem;
+    float: left;
+    padding: 0 43px 0 0;
+  }
 
-.desc {
-  text-align: center;
-  @include carbon--type-style("body-short-02");
-  padding-top:1rem;
-}
+  .desc {
+    text-align: center;
+    @include carbon--type-style("body-short-02");
+    padding-top: 1rem;
+  }
 }
 footer {
   background-color: #cc3d3d;

@@ -137,7 +137,7 @@ const DashboardInfo = () => {
         </Row>
         <Row className="info-media">
           <Column className="col__media">
-          <div className="gallery">
+            <div className="gallery">
               <img src={salome} alt="Salomé Valero"></img>
               <div className="desc">
                 <p>Salomé Valero</p>
@@ -145,12 +145,10 @@ const DashboardInfo = () => {
                 <p>Co-Founder</p>
               </div>
             </div>
-           
-	  </Column>
-	  
-	  <Column className="col__media">
+          </Column>
 
-	  <div className="gallery">
+          <Column className="col__media">
+            <div className="gallery">
               <img src={marco} alt="Marco Emilio Rodríguez Serrano" />
               <div className="desc">
                 <p>Marco Emilio Rodríguez Serrano</p>
@@ -159,11 +157,9 @@ const DashboardInfo = () => {
               </div>
             </div>
           </Column>
-	
-	  <Column className="col__media">
 
-
-	  <div className="gallery">
+          <Column className="col__media">
+            <div className="gallery">
               <img src={joan} alt="Joan Herrera" />
               <div className="desc">
                 <p>Joan Herrera</p>
@@ -173,10 +169,8 @@ const DashboardInfo = () => {
             </div>
           </Column>
 
-	<Column className="col__media">
-
-
-	  <div className="gallery">
+          <Column className="col__media">
+            <div className="gallery">
               <img src={artur} alt="Artur Álvarez" />
               <div className="desc">
                 <p>Artur Álvarez</p>
@@ -185,8 +179,7 @@ const DashboardInfo = () => {
               </div>
             </div>
           </Column>
-
-	  </Row>
+        </Row>
       </Grid>
     </section>
   );
