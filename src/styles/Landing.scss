@@ -73,7 +73,7 @@
 
 }
 
-// Banner Subtitle Responsive
+// Banner Subtitle Responsive Widescreen
 
 .BannerSubtitle{
     font-weight: 400;
@@ -84,8 +84,56 @@
     font-size: 2.5rem;
 }
 
+// Banner Subtitle Responsive Laptop Tablet Mobile 
+
+.BannerSubtitle_Responsive{
+    font-weight: 400;
+    line-height: 1.25;
+    letter-spacing: 0;
+    border-left: 4px solid;
+    padding-left: 2rem;
+    font-size: 2.5rem;
+    display: none;
+    margin-top: 14rem;
+
+    @media only screen and (max-width: $mediumscreen){
+	display:block;
+}
 
 
+    @media only screen and (max-width: $tablet){
+	display:block;
+	margin-top: 12rem;
+}
+
+    @media only screen and (max-width: 700px){
+	display:block;
+	font-size: 2rem;
+
+
+
+}
+
+    @media only screen and (max-width: $smartphone){
+	display:block;
+	font-size: 1.5rem;
+	margin-top:10rem;
+
+
+
+}
+
+@media only screen and (max-width: $small){
+	display:block;
+	font-size: 1.3rem;
+	margin-top:9rem;
+
+
+
+}
+
+
+}
 
 .landing__diagram {
   display: flex;
