@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4e975813.chunk.css",
+    "main.js": "/static/js/main.da26fa44.chunk.js",
+    "main.js.map": "/static/js/main.da26fa44.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.152d3bb2.js",
+    "runtime-main.js.map": "/static/js/runtime-main.152d3bb2.js.map",
+    "static/js/2.9b9d2e84.chunk.js": "/static/js/2.9b9d2e84.chunk.js",
+    "static/js/2.9b9d2e84.chunk.js.map": "/static/js/2.9b9d2e84.chunk.js.map",
+    "static/js/3.885f8cd4.chunk.js": "/static/js/3.885f8cd4.chunk.js",
+    "static/js/3.885f8cd4.chunk.js.map": "/static/js/3.885f8cd4.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.4e975813.chunk.css.map": "/static/css/main.4e975813.chunk.css.map",
+    "static/js/2.9b9d2e84.chunk.js.LICENSE.txt": "/static/js/2.9b9d2e84.chunk.js.LICENSE.txt",
+    "static/media/Artur-Alvarez.0cb4c3fb.jpeg": "/static/media/Artur-Alvarez.0cb4c3fb.jpeg",
+    "static/media/Joan-Herrera.398bcb34.jpeg": "/static/media/Joan-Herrera.398bcb34.jpeg",
+    "static/media/Marco-Emilio-Rodriguez-Serrano.2cb997f7.jpeg": "/static/media/Marco-Emilio-Rodriguez-Serrano.2cb997f7.jpeg",
+    "static/media/Pyrrha-dashboardSS.0d0e262a.png": "/static/media/Pyrrha-dashboardSS.0d0e262a.png",
+    "static/media/Salome-Valero.24783dba.jpeg": "/static/media/Salome-Valero.24783dba.jpeg",
+    "static/media/pyrrha-arch.eae1ac9c.jpg": "/static/media/pyrrha-arch.eae1ac9c.jpg",
+    "static/media/pyrrha-device-opt.648ee479.png": "/static/media/pyrrha-device-opt.648ee479.png",
+    "static/media/pyrrha-device.00491cce.png": "/static/media/pyrrha-device.00491cce.png",
+    "static/media/App.scss": "/static/media/pyrrha-hero.a0614750.jpg",
+    "static/media/pyrrha-testing.fd339736.png": "/static/media/pyrrha-testing.fd339736.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.152d3bb2.js",
+    "static/js/2.9b9d2e84.chunk.js",
+    "static/css/main.4e975813.chunk.css",
+    "static/js/main.da26fa44.chunk.js"
+  ]
+}
