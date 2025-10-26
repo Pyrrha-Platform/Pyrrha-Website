@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
-import { SensorInfo, DashboardInfo, NetworkInfo } from "../components/Sensors";
+import { DeviceInfo, DashboardInfo, NetworkInfo } from "../components/Devices";
 import Banner from "../components/Banner";
 import WhoWeAre from "../components/WhoWeAre";
 import Footer from "../components/Footer";
@@ -12,7 +12,7 @@ const Landing = () => {
       <main>
         <Banner />
         <WhoWeAre />
-        <SensorInfo />
+        <DeviceInfo />
         <DashboardInfo />
         <NetworkInfo />
       </main>

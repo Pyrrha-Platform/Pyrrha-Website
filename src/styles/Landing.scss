@@ -2,12 +2,12 @@
 // https://www.carbondesignsystem.com/guidelines/typography/productive
 
 // Header
-.bx--header .bx--header__name {
+.cds--header .cds--header__name {
   @include carbon--type-style("expressive-heading-04");
   font-size: 1rem;
 }
 
-.bx--header__nav {
+.cds--header__nav {
   display: block;
   position: absolute;
   right: 95px;
@@ -174,7 +174,7 @@
     margin-bottom: 4rem;
     float: left;
 
-    .bx--btn--primary {
+    .cds--btn--primary {
       background-color: #cc3d3d;
       max-width: 14rem;
     }
@@ -182,32 +182,32 @@
     @media screen and (max-width: 778px) {
       flex-direction: column;
 
-      .bx--btn,
-      .bx--btn--primary {
+      .cds--btn,
+      .cds--btn--primary {
         max-width: none;
         margin: 1rem 0;
       }
     }
 
-    .bx--btn--primary:hover {
+    .cds--btn--primary:hover {
       background-color: #5f6163;
     }
   }
 }
 
-// Sensor information section.
+// Device information section.
 .info-section {
   margin-bottom: 10vw;
 
   .info-text {
     padding-top: 40px;
     border-top: 1px solid #cc3d3d;
-    div[class^="bx--col"] {
+    div[class^="cds--col"] {
       margin-top: 10px;
     }
   }
 
-  .sensor-image {
+  .device-image {
     margin-top: 2vw;
     margin-bottom: 1.5vw;
     width: 100%;

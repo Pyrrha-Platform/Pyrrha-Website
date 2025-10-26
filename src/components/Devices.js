@@ -11,7 +11,7 @@ import marco from "../content/assets/Marco-Emilio-Rodriguez-Serrano.jpeg";
 import joan from "../content/assets/Joan-Herrera.jpeg";
 import artur from "../content/assets/Artur-Alvarez.jpeg";
 
-const SensorInfo = () => {
+const DeviceInfo = () => {
   const { t } = useContext(AppContext);
 
   return (
@@ -29,9 +29,9 @@ const SensorInfo = () => {
           <Column lg={4}></Column>
           <Column lg={6}>
             <img
-              className="sensor-image"
+              className="device-image"
               src={board}
-              alt="A 3D printed sensor"
+              alt="A 3D printed device"
             ></img>
           </Column>
         </Row>
@@ -215,4 +215,4 @@ const NetworkInfo = () => {
   );
 };
 
-export { SensorInfo, DashboardInfo, NetworkInfo };
+export { DeviceInfo, DashboardInfo, NetworkInfo };
