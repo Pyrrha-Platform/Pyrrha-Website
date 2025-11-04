@@ -1,14 +1,14 @@
-import React, { useContext } from "react";
+import React, { useContext } from 'react';
 import {
   Header,
   HeaderName,
   HeaderGlobalAction,
   HeaderGlobalBar,
-} from "carbon-components-react/lib/components/UIShell";
-import LogoGitHub20 from "@carbon/icons-react/lib/logo--github/20";
-import LogoSlack20 from "@carbon/icons-react/lib/logo--slack/20";
+} from 'carbon-components-react/lib/components/UIShell';
+import LogoGitHub20 from '@carbon/icons-react/lib/logo--github/20';
+import LogoSlack20 from '@carbon/icons-react/lib/logo--slack/20';
 
-import AppContext from "../context/app";
+import AppContext from '../context/app';
 
 const _Header = () => {
   const { t } = useContext(AppContext);
@@ -16,7 +16,7 @@ const _Header = () => {
   return (
     <Header aria-label="Pyrrha" className="header--container">
       <HeaderName href="/" prefix="">
-        {t("title")}
+        {t('title')}
       </HeaderName>
 
       {/*
@@ -32,16 +32,14 @@ const _Header = () => {
           aria-label="GitHub"
           target="_blank"
           href="https://github.com/Pyrrha-Platform/"
-          tooltipAlignment="end"
-        >
+          tooltipAlignment="end">
           <LogoGitHub20 />
         </HeaderGlobalAction>
         <HeaderGlobalAction
           aria-label="Slack"
           target="_blank"
           href="http://callforcode.org/slack"
-          tooltipAlignment="end"
-        >
+          tooltipAlignment="end">
           <LogoSlack20 />
         </HeaderGlobalAction>
       </HeaderGlobalBar>
