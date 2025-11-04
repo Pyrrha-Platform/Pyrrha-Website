@@ -1,6 +1,6 @@
-import React, { useContext } from "react";
+import React, { useContext } from 'react';
 
-import AppContext from "../context/app";
+import AppContext from '../context/app';
 
 const Banner = () => {
   const { t } = useContext(AppContext);
@@ -11,11 +11,11 @@ const Banner = () => {
         <div className="cds--row">
           <div className="cds--col col__banner__title">
             <h1 className="BannerTitle">Pyrrha</h1>
-            <h2 className="BannerSubtitle_Responsive">{t("bannerMission")}</h2>
+            <h2 className="BannerSubtitle_Responsive">{t('bannerMission')}</h2>
           </div>
           <div className="cds--col col__banner__subtitle">
-            {" "}
-            <h2 className="BannerSubtitle">{t("bannerMission")}</h2>
+            {' '}
+            <h2 className="BannerSubtitle">{t('bannerMission')}</h2>
           </div>
         </div>
       </div>

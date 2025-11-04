@@ -1,6 +1,7 @@
 # Pyrrha website - pyrrha-platform.org
 
-[![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0) [![Slack](https://img.shields.io/static/v1?label=Slack&message=%23prometeo-pyrrha&color=blue)](https://callforcode.org/slack)
+[![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+[![Slack](https://img.shields.io/static/v1?label=Slack&message=%23prometeo-pyrrha&color=blue)](https://callforcode.org/slack)
 
 This is the pyrrha-platform.org website code. It's based on the Carbon Design System and React.
 
@@ -27,7 +28,8 @@ You will also see any lint errors in the console.
 ### `yarn test`
 
 Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests)
+for more information.
 
 ### `yarn build`
 
@@ -39,11 +41,13 @@ Your app is ready to be deployed!
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting Pyrrha pull requests.
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process
+for submitting Pyrrha pull requests.
 
 ### Submitting pull requests for the website
 
-Please send pull requests against the `main` branch. Changes will then automatically be deployed to the `gh-pages` branch by a GitHub action.
+Please send pull requests against the `main` branch. Changes will then automatically be deployed to
+the `gh-pages` branch by a GitHub action.
 
 ## License
 
